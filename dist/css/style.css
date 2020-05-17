@@ -1,0 +1,170 @@
+.file-data:hover .actions-container{
+    visibility: visible;
+}
+.actions-container{
+    visibility: hidden;
+}
+.actions-list{
+    display: inline-flex;
+    list-style: none;
+}
+.action{
+    padding: 0 8px;
+}
+
+
+
+
+
+
+
+
+/* Header Section */
+
+/* Main Section */
+
+.text-capitalize{
+
+    text-transform: capitalize !important;
+
+}
+
+.no-container{
+
+    width: 98% !important;
+
+    margin: 0 auto;
+
+}
+
+.profile_pic{
+
+    border: 3px solid gray;
+
+    border-radius: 100% !important;
+
+    height: 150px;
+
+    width: 150px;
+
+    cursor: pointer;
+
+}
+
+.no-border{
+
+    border: none !important;
+
+    background: transparent;
+
+}
+
+.form-control{
+
+    background: #f8f8f8;
+
+}
+
+#error_block{
+
+    display: none;
+
+}
+
+.form-control:hover,
+
+.form-control:focus{
+
+    box-shadow: 2px 2px 8px !important;
+
+    box-shadow: 2px 2px 8px !important;
+
+}
+
+.btn-container{
+
+    text-align: right;
+
+}
+
+.btn-container .btn:hover{
+
+    box-shadow: 2px 2px 8px rgb(0, 0, 0) !important;
+
+}
+
+.table{
+
+    font-size: 15px;
+
+}
+
+.fa-user-circle-o{
+
+    text-shadow: 2px 2px 4px;
+
+    font-size: 120px !important;
+
+    color: #ced4da;
+
+}
+
+.control{
+
+    background: brown;
+
+    border-radius: 5px;
+
+    box-shadow: 2px 2px 8px;
+
+}
+
+.word-wrap{
+
+    word-wrap: break-word;
+
+}
+
+.big-icon{
+
+    font-size: 190px !important;
+
+}
+
+.remove-border{
+
+    border: none !important;
+
+}
+
+.panel{
+
+    box-shadow: 2px 2px 4px;
+
+}
+
+.panel-header{
+
+    background: #e9e9e9;
+
+}
+
+
+
+/* Footer Section */
+
+.site-info{
+
+    /* position: absolute;
+
+    bottom: 0;
+
+    left: 0;
+
+    right: 0; */
+
+    text-align: center;
+
+    font-size: 12px !important;
+
+}
