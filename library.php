@@ -33,10 +33,6 @@ $_SESSION['return'] = $_SERVER['PHP_SELF'];
 $files = Library::get_media();
 
 ?>
-<!-- <pre>
-    <?= print_r($_GET, true) ?>
-</pre> -->
-
 
 <!-- Main content -->
 <section class="content">
