@@ -1,6 +1,8 @@
 <?php
-require 'libs\config.php';
-require 'libs\library.php';
+require __DIR__ . DIRECTORY_SEPARATOR . 'libs' . DIRECTORY_SEPARATOR .  'config.php';
+require __DIR__ . DIRECTORY_SEPARATOR . 'libs' . DIRECTORY_SEPARATOR . 'Library.php';
+require __DIR__ . DIRECTORY_SEPARATOR . 'upload.php';
+require __DIR__ . DIRECTORY_SEPARATOR . 'header.php';
 
 $page_title = 'Library';
 
@@ -23,16 +25,14 @@ switch ($action) {
         break;
 }
 
-require 'upload.php';
-require 'header.php';
-
 // Save as return page.
 $_SESSION['return'] = $_SERVER['PHP_SELF'];
 
 // Get all files
 $files = Library::get_media();
-
 ?>
+
+
 
 <!-- Main content -->
 <section class="content">

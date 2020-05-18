@@ -1,9 +1,10 @@
 <?php
+require __DIR__ . DIRECTORY_SEPARATOR . 'functions.php';
 // Include our configurations.
-require_once 'libs/config.php';
+require __DIR__ . DIRECTORY_SEPARATOR . 'libs' . DIRECTORY_SEPARATOR . 'config.php';
 
 // Include our user class.
-require_once 'libs/User.php';
+require __DIR__ . DIRECTORY_SEPARATOR . 'libs' . DIRECTORY_SEPARATOR . 'User.php';
 
 $atmt = 0;
 
@@ -198,4 +199,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <script src="dist\js\app.js"></script>
     </footer>
 </body>
-</html>
+</html> 

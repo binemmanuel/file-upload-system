@@ -1,10 +1,10 @@
 <?php
 $page_title = 'Zip';
 
-require 'libs\config.php';
-require 'libs\library.php';
-require 'upload.php';
-require 'header.php';
+require __DIR__ . DIRECTORY_SEPARATOR . 'libs' . DIRECTORY_SEPARATOR .  'config.php';
+require __DIR__ . DIRECTORY_SEPARATOR . 'libs' . DIRECTORY_SEPARATOR . 'Library.php';
+require __DIR__ . DIRECTORY_SEPARATOR . 'upload.php';
+require __DIR__ . DIRECTORY_SEPARATOR . 'header.php';
 
 // Save as return page.
 $_SESSION['return'] = $_SERVER['PHP_SELF'];

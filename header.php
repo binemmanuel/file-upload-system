@@ -1,4 +1,7 @@
 <?php
+// Include our functions.
+require 'functions.php';
+
 // Check if the user is logged in.
 if (
     empty($_SESSION['username']) &&
@@ -85,3 +88,6 @@ if (
                 </div><!-- /.container-fluid -->
             </div>
             <!-- /.content-header -->
+            <pre>
+                <?= print_r($_SESSION, true) ?>
+            </pre>

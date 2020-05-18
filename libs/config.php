@@ -9,21 +9,13 @@
  *
  * @version	1.0
  */
-ob_start();
-ob_flush();
-
 // Initialize session.
 session_start();
-
-// Include our functions.
-require 'functions.php';
 
 /**
  * Class Directory.
  */
 define('CLASS_DIR', 'libs/classes/');
-
-define('SITE_URL', 'http://localhost/dbstorage/');
 
 /**
  * Upload Directory.
@@ -37,13 +29,13 @@ define('OTHER_FILES_PATH', UPLOAD_DIR .'other-files'. DIRECTORY_SEPARATOR);
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database */
-define('DB_NAME', '');
+define('DB_NAME', 'dbstorage');
 
 /** MySQL database username */
-define('DB_USER', '');
+define('DB_USER', 'binemmanuel');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'SMARTlogin89');
 
 /** MySQL hostname */
 define('DB_SERVER', 'localhost');
