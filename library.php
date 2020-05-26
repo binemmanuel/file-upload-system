@@ -1,10 +1,10 @@
 <?php
+$page_title = 'Library';
 require __DIR__ . DIRECTORY_SEPARATOR . 'libs' . DIRECTORY_SEPARATOR .  'config.php';
+require __DIR__ . DIRECTORY_SEPARATOR . 'header.php';
 require __DIR__ . DIRECTORY_SEPARATOR . 'libs' . DIRECTORY_SEPARATOR . 'Library.php';
 require __DIR__ . DIRECTORY_SEPARATOR . 'upload.php';
-require __DIR__ . DIRECTORY_SEPARATOR . 'header.php';
 
-$page_title = 'Library';
 
 $action = (string) (!empty($_GET['action'])) ? clean_data($_GET['action']) : null;
 
@@ -31,8 +31,6 @@ $_SESSION['return'] = $_SERVER['PHP_SELF'];
 // Get all files
 $files = Library::get_media();
 ?>
-
-
 
 <!-- Main content -->
 <section class="content">

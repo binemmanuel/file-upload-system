@@ -10,6 +10,7 @@
  * @version	1.0
  */
 // Initialize session.
+ob_start();
 session_start();
 
 /**

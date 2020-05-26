@@ -88,6 +88,3 @@ if (
                 </div><!-- /.container-fluid -->
             </div>
             <!-- /.content-header -->
-            <pre>
-                <?= print_r($_SESSION, true) ?>
-            </pre>
