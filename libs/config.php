@@ -30,13 +30,13 @@ define('OTHER_FILES_PATH', UPLOAD_DIR .'other-files'. DIRECTORY_SEPARATOR);
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database */
-define('DB_NAME', 'dbstorage');
+define('DB_NAME', 'db_name_here');
 
 /** MySQL database username */
-define('DB_USER', 'binemmanuel');
+define('DB_USER', 'username_here');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'SMARTlogin89');
+define('DB_PASSWORD', 'password_here');
 
 /** MySQL hostname */
 define('DB_SERVER', 'localhost');
